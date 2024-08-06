@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encripatdor de Texto</title>
+    <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <a class="header inicio" href="https://www.aluracursos.com/">
+            <img class="imagen_alura" alt="Logo alura" src="./imagenes/Logo.png" > </a>
+    </header>
+
+    <!--Sección principal-->
+    <main>
+        <section class="encriptador">
+            <textarea class="textarea" cols="20" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="aviso_encriptador">
+                <img src="./imagenes/aviso.svg" alt="imagen_aviso" class="IMG_aviso">
+                <p class="texto_aviso">Solo letras minúsculas y sin acento</p>
+            </div>
+            <div class="botones">
+                <button class="boton__encriptar">Encriptar</button>
+                <button class="boton__desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta_contenedor">
+                <img src="./imagenes/muñeco.svg" alt="Imagen muñeco" class="imagen_muñeco">
+                <p class="texto_uno">Ningún mensaje fue encontrado</p>
+                <p class="texto_dos">Ingresa el texto que desas encriptar o desencriptar</p>
+            </div>
+           <textarea class="mensajes" cols="20" rows="10" readonly></textarea> 
+           <button class="boton_copiar">copiar</button>
+        </section>    
+</main>
+
+<!--Pie de Página-->
+<footer>
+    <p class="CopyRight">&copy; coopyright 2024 - Encriptador de texto - desarrollado por Aldair Vanegas</p>
+    <a href="#">
+        <img src="./imagenes/linkedin.svg" alt="Logo linkedin" class="linkedin">
+     </a>
+    <a href="#">
+        <img src="./imagenes/github.svg" alt="Logo github" class="github">
+     </a> 
+</footer>
+
+<script src="./encriptador.js"></script>
+
+</body>
+</html>
